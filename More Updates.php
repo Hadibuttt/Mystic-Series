@@ -29,7 +29,7 @@ include("Header.php");
                                         $id=$row1['episode_id'];
                                         $series_name=$row1['series_name'];
                             ?>
-<img src="https://img.icons8.com/doodle/48/000000/circled-right-2.png" style="height:25px;"> <b><?php echo $series_name." - ".$season_title." - </b> ".$episode_title. " - [10/10] ";?><br>                             
+<img src="https://img.icons8.com/doodle/48/000000/circled-right-2.png" style="height:25px;"><a style="color:darkslategray;" href="Season page.php?ser_id=<?php echo $series_id; ?>&s_id=<?php echo $season_id; ?>" target="_blank"> <b><?php echo $series_name." - ".$season_title." - </b> ".$episode_title. " - [10/10] ";?></a><br>                             
     <?php
     }?>
 <br>
