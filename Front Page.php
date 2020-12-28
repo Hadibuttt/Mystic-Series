@@ -9,8 +9,7 @@ $id=$_GET['id'];
 
 $sql="SELECT * FROM series WHERE episode_id='$id'";
 $result=$conn->query($sql);
-// if($result->num_rows>0)
-//      {
+     {
          while($row=$result->fetch_assoc())
          {
             $A=$row['episode_id'];
@@ -32,8 +31,7 @@ $result=$conn->query($sql);
             $Q=$row['First_alphabet'];
             $R=$row['Mid_alphabet'];
             $S=$row['Last_alphabet'];
-            // <a href='Tv Series.php?ser1="$A"&ser2="$B"&ser3="$C"' style='color:white;margin-left:-8px;'>
-            // S, T or U </a>  »  ".$B." </b></div>
+           
              echo "
              <br><div style='background-color:darkolivegreen;color:white;border:4px solid darkolivegreen;margin:1px;font-size:17px;border-radius:6px;word-spacing:2px;' class='col-lg-12 col-md-12 col-sm-12 col-xs-12'>
              
