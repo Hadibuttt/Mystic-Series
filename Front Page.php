@@ -70,11 +70,11 @@ $result=$conn->query($sql);
              echo"
               <br><b>Rate:</b>
              <select> 
-             <option>5</option>
-             <option>4</option>
-             <option>3</option>
-             <option>2</option>
-             <option>1</option>
+             <option value="5">5</option>
+             <option value="4">4</option>
+             <option value="3">3</option>
+             <option value="2">2</option>
+             <option value="1">1</option>
              </select><button style='background-color:darkolivegreen;color:white;border:2px solid darkolivegreen;border-radius:5px;padding-left:3px;'>Rate This</button></div>
              "?>
              
