@@ -75,7 +75,7 @@ $result=$conn->query($sql);
              <option value="3">3</option>
              <option value="2">2</option>
              <option value="1">1</option>
-             </select><button style='background-color:darkolivegreen;color:white;border:2px solid darkolivegreen;border-radius:5px;padding-left:3px;'>Rate This</button></div>
+             </select><button name="rate" style='background-color:darkolivegreen;color:white;border:2px solid darkolivegreen;border-radius:5px;padding-left:3px;'>Rate This</button></div>
              "?>
              
              
