@@ -7,4 +7,4 @@ Tv Series website allowing users to Watch/Download free tv series with multiple 
 - Configure the Php and Database Connection File
 - Upload the sql file to your database in Phpmyadmin
 - Start the Apache and Mysql from xaamp control panel
-- Boom your are ready to g
+- Boom your are ready to go
